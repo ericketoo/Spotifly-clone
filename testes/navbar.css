@@ -1,0 +1,246 @@
+/*importar font*/
+@font-face{
+    font-family: [Gotham];
+    src: local(Gotham), url(../assets/font/Gotham-Medium.otf);
+    font-weight: normal;
+}
+@font-face{
+    font-family: [Gotham];
+    src: local(Gotham), url(../assets/font/Gotham-Bold.otf);
+    font-weight: bold;
+}
+@font-face{
+    font-family: [Gotham];
+    src: local(Gotham), url(../assets/font/Gotham-Black.otf);
+    font-weight: bolder;
+}
+/*importar font*/
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+/*isto e para os links do li*/
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+  a:hover {
+    color: #1ed760;
+}
+/*isto e para os links do li*/
+
+
+
+/*deixar a imagem do logo menor*/
+.logo > img{
+    width: 150px;
+}
+/*deixar a imagem do logo menor*/
+  
+
+/*isto e para os elementos ficaram ao lado um do outro fora do resposivo*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Gotham;
+    font-weight: bold;
+    background: #23232e;
+    height: 8vh;
+    padding: 0 4vh;
+}
+  nav > ul li {
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 20px;
+    font-size: 15px;
+    position: relative;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.nav-list-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*isto e para os elementos ficaram ao lado um do outro fora do resposivo*/
+
+
+
+/*para o X ficar sumido*/
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+    z-index: 10;
+}
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s; /* serve para a animação do hambuirguer */
+}
+/*para o X ficar sumido*/
+
+
+/*determinar o tamanho da font*/
+.nav-div-1{
+    font-size: 35px;
+    font-weight: 700;
+    display: flex;
+    gap: 20px;
+}
+.nav-div-2{
+    font-size: 35px;
+    font-weight: 400;
+    display: flex;
+    gap: 20px;
+}
+/*determinar o tamanho da font*/
+
+
+/*linha que fica no meio dos inteins */
+.line-nav {
+    margin-left: 20px;
+    width: 2px;
+    height: 25px;
+    background: white;
+}
+/*linha que fica no meio dos inteins */
+
+
+/*imagens do logo do spotifly no responsivo*/
+.nav-div-3 > img{
+    display: none;
+    opacity: 0%;
+    transition: 0.3s;
+}
+/*imagens do logo do spotifly no responsivo*/
+/*para o elemento voltar ao lugar */
+.nav-list.active { /*fara o menu aparecer*/
+    transform: translateX(0);
+  }
+  
+/*servae para animar igual no after */  
+@keyframes navLinkFade { 
+    from {
+      opacity: 0;
+      transform: translateX(50px); /*uma trasição da esquerda para a direita */
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+/*servae para animar igual no after */
+
+
+/*para animar os elementos do hamburguer */
+.mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+  
+.mobile-menu.active .line2 {
+    opacity: 0;
+}
+  
+.mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+}
+/*para animar os elementos do hamburguer */
+    /*site responsivo*/
+@media (max-width: 999px) {
+    /*ele faz com que o elemento fora da tela n tenha uma barra de rolagem çlateral*/
+    body {
+      overflow-x: hidden;
+    }
+    /*ele faz com que o elemento fora da tela n tenha uma barra de rolagem çlateral*/
+
+
+    /*serve para que posso ajudtar os elemntos no responsivo*/
+    .nav-list {
+      position: absolute;
+      top: 0vh;
+      right: 0;
+      width: 45vw; /*tamanho da barra */
+      height: 100vh;
+      background: #23232e;
+      padding-left: 30px;
+      flex-direction: column;
+      align-items: flex-start;
+      transform: translateX(100%); /*ele joga o elemento para fora da tela*/
+      transition: transform 0.3s ease-in; /*animação ficar mais suave*/
+    }
+    .nav-list-div{
+        display: flex;
+        align-items: flex-start;
+    }
+    .nav-list li {
+      margin-left: 0;
+      opacity: 0;
+    }
+    .mobile-menu {
+      display: block;
+    }
+    .nav-list-div{
+        display: flex;
+        flex-direction: column;
+    }
+    /*serve para que posso ajudtar os elemntos no responsivo*/
+
+    /*propriedades da fontes */
+    .nav-div-1{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+    .nav-div-2{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 30px;
+        opacity: 80%;
+    }
+    nav > ul li{
+        font-size: 30px;
+    }
+    /*propriedades da fontes */
+
+
+    /*linha no meio das info*/
+    .line-nav {
+        width: 25px;
+        height: 3px;
+        background: white;
+        margin-left: 0;
+    }
+    /*linha no meio das info*/
+
+
+    /*propriedade de imagem*/
+    .nav-div-3 > img{
+       width: 80px;
+       display: inline-block;
+       position: fixed;
+       opacity: 100%;
+    }
+    .nav-div-3{
+        margin-bottom: 50px;
+    }
+    /*propriedade de imagem*/
+}
