@@ -18,15 +18,18 @@
     margin: 0;
 }
 
-.Modo_off li{
-    text-decoration: none;
+
+#pq_ser_premium{
+    display: flex;
+    flex-wrap: wrap;
 }
-.Modo_off li{
-    display: block;
+.Modo_off {
+    display: flex;
     justify-content: flex-start;
     gap: 30px;
     align-items: center;
     font-family: Gotham;
+    width: 100%;
 }
 .Modo_off img{
     width: 6.5rem;
@@ -39,27 +42,21 @@
     font-size: 15px;
 }
 
-#pq_ser_premium{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-    margin-left: 20px;
-}
+
 /*
 @media only screen and (min-width: 768px){}
 @media only screen and (min-width: 992px){}
 @media only screen and (min-width: 1200px){}
 /**/
-@media only screen and (min-width: 768px){
-
-    .Modo_off li:nth-child(odd){
-    float: left;
-    width: 50%;
+@media (min-width: 768px){
+    .Modo_off{
+        width: 50vw;
     }
-
 }
 @media only screen and (min-width: 992px){
-    
+
 }
 @media only screen and (min-width: 1200px){
+
+
 }
