@@ -1,0 +1,65 @@
+@font-face{
+    font-family: [Gotham];
+    src: local(Gotham), url(../assets/font/Gotham-Medium.otf);
+    font-weight: normal;
+}
+@font-face{
+    font-family: [Gotham];
+    src: local(Gotham), url(../assets/font/Gotham-Bold.otf);
+    font-weight: bold;
+}
+@font-face{
+    font-family: [Gotham];
+    src: local(Gotham), url(../assets/font/Gotham-Black.otf);
+    font-weight: bolder;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Modo_off li{
+    text-decoration: none;
+}
+.Modo_off li{
+    display: block;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: center;
+    font-family: Gotham;
+}
+.Modo_off img{
+    width: 6.5rem;
+}
+.Modo_off h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.Modo_off p{
+    font-size: 15px;
+}
+
+#pq_ser_premium{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 20px;
+}
+/*
+@media only screen and (min-width: 768px){}
+@media only screen and (min-width: 992px){}
+@media only screen and (min-width: 1200px){}
+/**/
+@media only screen and (min-width: 768px){
+
+    .Modo_off li:nth-child(odd){
+    float: left;
+    width: 50%;
+    }
+
+}
+@media only screen and (min-width: 992px){
+    
+}
+@media only screen and (min-width: 1200px){
+}
