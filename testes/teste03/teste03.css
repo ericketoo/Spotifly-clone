@@ -22,6 +22,9 @@
 #pq_ser_premium{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
 }
 .Modo_off {
     display: flex;
@@ -30,18 +33,28 @@
     align-items: center;
     font-family: Gotham;
     width: 100%;
+    margin-bottom: 30px;
 }
 .Modo_off img{
     width: 6.5rem;
 }
 .Modo_off h4{
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 .Modo_off p{
     font-size: 15px;
 }
 
+
+
+.pq-premium{
+    margin-top: 30px;
+    text-align: center;
+    font-family: Gotham;
+    font-size: 15px;
+    font-weight: bold;
+}
 
 /*
 @media only screen and (min-width: 768px){}
@@ -50,13 +63,40 @@
 /**/
 @media (min-width: 768px){
     .Modo_off{
-        width: 50vw;
+        width: 40vw;
+    }
+    .pq-premium{
+        font-size: 20px;
+        margin-top: 50px;
     }
 }
 @media only screen and (min-width: 992px){
 
 }
 @media only screen and (min-width: 1200px){
-
-
+    #pq_ser_premium{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 30px;
+        width: 1200px;
+        margin: auto;
+    }
+    .Modo_off {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: Gotham;
+        width: 285px;
+        margin-bottom: 30px;
+    }
+    .Modo_off img{
+        width: 8.5rem;
+    }
+    .pq-premium{
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
 }
