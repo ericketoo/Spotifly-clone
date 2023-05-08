@@ -22,10 +22,12 @@
     --green: #1ed760 ;
     --gray: #919496 ;
     --font: Gotham;
+    --color-white: #fff;
 }
 *{
     margin: 0;
     padding: 0;
+    font-family: var(--font);
 }
 
 /*linha para fechar a lingua*/
@@ -189,8 +191,196 @@ ul{
     transform: rotate(45deg) translate(-5px, -7px);
 }
 /*para animar os elementos do hamburguer */
+
+/*curtição parte 2*/
+
+#promotion{
+    padding: 30px 0px 0px 0px;
+    width: 100vw;
+    height: 23rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    background-color: var(--blue);
+    color: var(--color-white);
+}
+#promotion h1{
+    width: 95vw;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--color-white);
+}
+    .prom-valor{
+    font-weight: bolder;
+    font-size: 26px;
+    }
+#promotion  p{
+    width: 95vw;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btn_longo{
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    height: 45px;
+    background-color: var(--black);
+    border-radius: 30px;
+    border: solid 3px var(--black);
+    margin-bottom: 15px;
+    font-size: 1px !important;
+    color: var(--color-white);
+}
+    .btn_longo p{
+    font-size: 14px !important;
+    }
+    .btn_longo-2 p{
+    font-size: 14px !important;
+    }
+.btn_longo-2{
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    height: 45px;
+    border-radius: 30px;
+    border: solid 3px white;
+}
+.promo-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.promo-img img{
+    width: 70%;
+}
+.letrinhas p{
+    font-size: 10px !important;
+    cursor: pointer;
+}
+.letrinhas span{
+    text-decoration: underline;
+    color: var(--color-white);
+}
+/*curtição parte 2*/
+
+/*bolinhas parte 3*/
+#pq_ser_premium{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+.Modo_off {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: center;
+    font-family: Gotham;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.Modo_off img{
+    width: 6.5rem;
+}
+.Modo_off h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.Modo_off p{
+    font-size: 15px;
+}
+
+
+
+.pq-premium{
+    margin-top: 30px;
+    text-align: center;
+    font-family: Gotham;
+    font-size: 15px;
+    font-weight: bold;
+}
+/*bolinhas parte 3*/
+
     /*site responsivo*/
-@media (max-width: 999px) {
+    @media only screen and (min-width: 768px) {
+        body{
+            overflow: hidden;
+        }
+        #promotion{
+            padding: 30px 20px 0px 3rem;
+            width: 100vw;
+            height: 23rem;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+            background-color: var(--blue);
+            color: var(--color-white);
+        }
+        .botoes{
+            display: flex;
+            align-items: center;
+            width: 90vw;
+            gap: 15px;
+            justify-content: flex-start !important;
+        }
+            .btn_longo p{
+            font-size: 15px !important;
+            font-weight: bold !important;
+            font-family: Gotham;
+            }
+            .btn_longo-2 h1{
+            font-size: 15px !important;
+            font-weight: bold !important;
+            font-family: Gotham;
+            }
+        .btn_longo{
+            width: 12rem;
+            margin-bottom: 0;
+        }
+        .btn_longo-2{
+            width: 12rem;
+        }
+        #promotion  p{
+            width: 750px;
+            font-weight: normal;
+            font-size: 22px;
+        }
+        #promotion h1{
+            width: 750px;
+            font-size: 40px;
+        }
+        .prom-valor{
+            font-size: 40px;
+            }
+        .letrinhas p{
+            font-size: 10px !important;
+            color: var(--color-yellow);
+            width: 700px !important;
+        }
+
+        /*bolinhas parte 3*/
+        .Modo_off{
+            width: 40vw;
+        }
+        .pq-premium{
+            font-size: 20px;
+            margin-top: 50px;
+        }
+        /*bolinhas parte 3*/
+    }
+
+@media (max-width: 992px) {
     /*ele faz com que o elemento fora da tela n tenha uma barra de rolagem çlateral*/
     body {
       overflow-x: hidden;
@@ -271,4 +461,56 @@ ul{
         margin-bottom: 50px;
     }
     /*propriedade de imagem*/
+}
+@media only screen and (min-width: 1200px){
+    #promotion{
+        padding: 30px 20px 0px 3rem;
+        width: 100vw;
+        height: 23rem;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        background-color: var(--blue);
+        color: var(--color-white);
+    }
+    .letrinhas p{
+        font-size: 12px !important;
+        color: var(--color-yellow);
+        width: 700px !important;
+    }
+    #promotion  p{
+        width: 90vw;
+        font-weight: normal;
+        font-size: 25px;
+    }
+
+    /*bolinhas parte 3*/
+    #pq_ser_premium{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 30px;
+        width: 1200px;
+        margin: auto;
+    }
+    .Modo_off {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: Gotham;
+        width: 285px;
+        margin-bottom: 30px;
+    }
+    .Modo_off img{
+        width: 8.5rem;
+    }
+    .pq-premium{
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+    /*bolinhas parte 3*/
 }

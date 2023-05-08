@@ -1,0 +1,196 @@
+/*importar font*/
+@font-face{
+    font-family: [Gotham];
+    src: local(Gotham), url(../assets/font/Gotham-Medium.otf);
+    font-weight: normal;
+}
+@font-face{
+    font-family: [Gotham];
+    src: local(Gotham), url(../assets/font/Gotham-Bold.otf);
+    font-weight: bold;
+}
+@font-face{
+    font-family: [Gotham];
+    src: local(Gotham), url(../assets/font/Gotham-Black.otf);
+    font-weight: bolder;
+}
+/*importar font*/
+:root{
+    --blue: #1d75de ;
+    --black: #121212 ;
+    --background_gray: #efefef ;
+    --green: #1ed760 ;
+    --gray: #919496 ;
+    --font: Gotham;
+    --pink_add: #a1248b ;
+    --color-yellow: #fce54f;
+    --color-white: #fff;
+}
+*{
+    font-family: var(--font), sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#promotion{
+    padding: 30px 0px 0px 0px;
+    width: 100vw;
+    height: 23rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    background-color: var(--blue);
+    color: var(--color-white);
+}
+#promotion h1{
+    width: 95vw;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--color-white);
+}
+    .prom-valor{
+    font-weight: bolder;
+    font-size: 26px;
+    }
+#promotion  p{
+    width: 95vw;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btn_longo{
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    height: 45px;
+    background-color: var(--black);
+    border-radius: 30px;
+    border: solid 3px var(--black);
+    margin-bottom: 15px;
+    font-size: 1px !important;
+    color: var(--color-white);
+}
+    .btn_longo p{
+    font-size: 14px !important;
+    }
+    .btn_longo-2 p{
+    font-size: 14px !important;
+    }
+.btn_longo-2{
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    height: 45px;
+    border-radius: 30px;
+    border: solid 3px white;
+}
+.promo-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.promo-img img{
+    width: 70%;
+}
+.letrinhas p{
+    font-size: 10px !important;
+    cursor: pointer;
+}
+.letrinhas span{
+    text-decoration: underline;
+    color: var(--color-white);
+}
+
+@media only screen and (min-width: 768px) {
+    body{
+        overflow: hidden;
+    }
+    #promotion{
+        padding: 30px 20px 0px 3rem;
+        width: 100vw;
+        height: 23rem;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        background-color: var(--blue);
+        color: var(--color-white);
+    }
+    .botoes{
+        display: flex;
+        align-items: center;
+        width: 90vw;
+        gap: 15px;
+        justify-content: flex-start !important;
+    }
+        .btn_longo p{
+        font-size: 15px !important;
+        font-weight: bold !important;
+        font-family: Gotham;
+        }
+        .btn_longo-2 h1{
+        font-size: 15px !important;
+        font-weight: bold !important;
+        font-family: Gotham;
+        }
+    .btn_longo{
+        width: 12rem;
+        margin-bottom: 0;
+    }
+    .btn_longo-2{
+        width: 12rem;
+    }
+    #promotion  p{
+        width: 750px;
+        font-weight: normal;
+        font-size: 22px;
+    }
+    #promotion h1{
+        width: 750px;
+        font-size: 40px;
+    }
+    .prom-valor{
+        font-size: 40px;
+        }
+    .letrinhas p{
+        font-size: 10px !important;
+        color: var(--color-yellow);
+        width: 700px !important;
+    }
+}
+
+@media only screen and (min-width: 992px){
+
+}
+@media only screen and (min-width: 1200px){
+    #promotion{
+        padding: 30px 20px 0px 3rem;
+        width: 100vw;
+        height: 23rem;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        background-color: var(--blue);
+        color: var(--color-white);
+    }
+    .letrinhas p{
+        font-size: 12px !important;
+        color: var(--color-yellow);
+        width: 700px !important;
+    }
+    #promotion  p{
+        width: 90vw;
+        font-weight: normal;
+        font-size: 25px;
+    }
+}
