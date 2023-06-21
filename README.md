@@ -79,6 +79,21 @@ No que diz respeito à programação, aprendi a utilizar de forma mais eficiente
 
 No entanto, sempre há espaço para melhorias e para tornar o código mais compacto e livre de ruídos. Continuarei buscando maneiras de aprimorar minhas habilidades de desenvolvimento e aperfeiçoar a qualidade do meu código.
 
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://user-images.githubusercontent.com/42822606/247635132-770576bb-44fc-4f91-80d1-e9e01bcb24d4.gif" alt="Spotifly Clone">
+      <p>Spotifly Clone</p>
+    </td>
+    <td align="center">
+      <img src="https://user-images.githubusercontent.com/42822606/247635179-1e7317ab-ad04-474a-9f11-4690569ead5a.gif" alt="Spotifly Original">
+      <p>Spotifly Original</p>
+    </td>
+  </tr>
+</table>
+
+
 ## Conclusão
 
 Em suma, considero que o projeto
