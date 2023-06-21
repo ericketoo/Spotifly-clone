@@ -103,3 +103,10 @@ Em suma, considero que o projeto
 Dedicar tempo e esforço a esse trabalho foi um avanço significativo para o meu desenvolvimento como programador e designer. Através dessa experiência, pude aprimorar minhas habilidades técnicas e consolidar conceitos de design responsivo. Acredito que essa experiência prática foi fundamental para o meu crescimento profissional.
 
 Além disso, ao me envolver profundamente com o projeto, pude obter uma compreensão mais profunda sobre a estrutura e organização de um site complexo como o Spotifly. Isso certamente será útil em projetos futuros, onde est
+
+## Links
+> * Spotifly clone:
+> https://ericketoo.github.io/Spotifly-clone/
+
+> * Spotifly original:
+> https://www.spotify.com/br-pt/premium/?checkout-offer=default-full-price-premium&checkout-error=true&ref=checkout#plans
