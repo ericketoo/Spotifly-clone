@@ -33,6 +33,19 @@ Durante o desenvolvimento do projeto, enfrentei alguns desafios significativos. 
 Um dos maiores desafios que encontrei foi a implementação da seção 'Por que ser premium?'. Nessa parte, os elementos precisavam ser exibidos inicialmente em uma coluna, com dois elementos de cada lado, e, em seguida, na versão desktop, serem dispostos lado a lado, formando uma coluna com quatro elementos. Essa foi uma tarefa que me exigiu um esforço considerável, já que nunca havia realizado uma implementação desse tipo antes. No entanto, foi extremamente gratificante concluir essa etapa e olhar para o resultado final com orgulho.
 
 Os desafios enfrentados no desenvolvimento do site Spotifly foram oportunidades de aprendizado valiosas e exemplos de como a persistência e a dedicação podem levar a resultados surpreendentes. Estou satisfeito com o resultado alcançado e ansioso para continuar aprimorando minhas habilidades de desenvolvimento.
+> * ### Mobile version
+> 
+> ![1](https://user-images.githubusercontent.com/42822606/247603065-e9dbe845-7935-4237-91c8-0e237fa3443e.jpg)
+> 
+> * ### Tablet version
+> 
+> ![2](https://user-images.githubusercontent.com/42822606/247603073-68ae976c-ce01-4df2-868b-e29d6eeac270.jpg)
+> 
+> * ### Desktop version
+> 
+> ![3](https://user-images.githubusercontent.com/42822606/247603075-c4681cf7-3c8f-4ce0-bcfe-8abac5ae9558.jpg)
+
+
 
 ## Aprendizados e Melhorias Futuras
 
