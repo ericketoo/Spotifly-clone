@@ -7,6 +7,22 @@ O objetivo principal deste projeto era recriar um site já existente, abrangendo
 
 A escolha do site do Spotify como base para o projeto foi motivada pela minha afinidade com a música e meu uso diário da plataforma Spotifly para consumir esse tipo de mídia. Além disso, o site em si não apresentava elementos complicados ou complexos, o que o tornou um ponto de partida ideal para o desenvolvimento deste projeto.
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://user-images.githubusercontent.com/42822606/247627369-27baaadf-bf5f-4a5d-8aef-2a4128ff00fb.gif" alt="Spotifly Clone">
+      <p>Spotifly Clone</p>
+    </td>
+    <td align="center">
+      <img src="https://user-images.githubusercontent.com/42822606/247627113-c24ec815-f634-440b-a206-ab59f7a6ca5f.gif" alt="Spotifly Original">
+      <p>Spotifly Original</p>
+    </td>
+  </tr>
+</table>
+
+
+
+
 ## Tecnologias Utilizadas
 
 As tecnologias utilizadas neste projeto não foram complexas. Pelo contrário, foi uma experiência tranquila para mim, pois optei por desenvolver tudo nativamente, sem o uso de bibliotecas. Essa abordagem foi proposital, pois desejava aplicar os conhecimentos que adquiri ao longo de um ano de estudos.
@@ -21,9 +37,7 @@ A arquitetura do projeto foi dividida em etapas distintas. Ao analisar o site do
 
 Para garantir uma organização eficiente do código e evitar sua extensão excessiva, decidi separar o projeto em quatro partes principais. Cada uma dessas partes foi construída em pastas individuais dentro do diretório do projeto. Os elementos-base foram armazenados na pasta 'assets', enquanto as quatro seções mencionadas anteriormente foram desenvolvidas separadamente na pasta 'testes'.
 
-Embora o projeto possua apenas um arquivo index, representando a tela inicial, achei importante dividir
-
- as partes do projeto em seções distintas. Essa estrutura facilita a revisão do código no futuro e permite o reuso de elementos específicos que foram desenvolvidos, tornando mais fácil a localização de elementos-chave. Além disso, a clareza da estrutura de seções torna o processo de criação mais compreensível tanto para mim quanto para outros que possam analisar o projeto.
+Embora o projeto possua apenas um arquivo index, representando a tela inicial, achei importante dividir as partes do projeto em seções distintas. Essa estrutura facilita a revisão do código no futuro e permite o reuso de elementos específicos que foram desenvolvidos, tornando mais fácil a localização de elementos-chave. Além disso, a clareza da estrutura de seções torna o processo de criação mais compreensível tanto para mim quanto para outros que possam analisar o projeto.
 > ![vscode1](https://user-images.githubusercontent.com/42822606/247602284-8cb55a3b-e79e-4d1a-82e5-55e1be859b94.jpg) ![vscode2](https://user-images.githubusercontent.com/42822606/247602288-8aa4eedb-1ef7-40b0-a9ab-43bc55b71381.jpg)
 
 ## Desafios do Projeto
