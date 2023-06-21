@@ -92,10 +92,7 @@ nav {
     font-size: 15px;
     position: relative;
 }
-ul{
-    display: flex;
-    justify-content: space-between;
-}
+
 .nav-list {
     list-style: none;
     display: flex;
@@ -378,99 +375,106 @@ ul{
             font-size: 20px;
             margin-top: 50px;
         }
+
+        /*bolinhas parte 3*/
+        .Modo_off{
+            width: 40vw;
+        }
+        .pq-premium{
+            font-size: 20px;
+            margin-top: 50px;
+        }
         /*bolinhas parte 3*/
     }
 
 @media (max-width: 992px) {
-    /*ele faz com que o elemento fora da tela n tenha uma barra de rolagem çlateral*/
-    body {
-      overflow-x: hidden;
-    }
-    #promotion{
-        min-width: 1200px;
-    }
-    
-    /*ele faz com que o elemento fora da tela n tenha uma barra de rolagem çlateral*/
-
-
-    /*serve para que posso ajudtar os elemntos no responsivo*/
-    .nav-list {
-      position: absolute;
-      top: 0vh;
-      right: 0;
-      width: 45vw; /*tamanho da barra */
-      height: 100vh;
-      background: var(--black);
-      padding-left: 30px;
-      flex-direction: column;
-      align-items: flex-start;
-      transform: translateX(100%); /*ele joga o elemento para fora da tela*/
-      transition: transform 0.3s ease-in; /*animação ficar mais suave*/
-    }
-    .nav-list-div{
-        display: flex;
-        align-items: flex-start;
-    }
-    .nav-list li {
-      margin-left: 0;
-      opacity: 0;
-    }
-    .mobile-menu {
-      display: block;
-    }
-    .nav-list-div{
-        display: flex;
-        flex-direction: column;
-    }
-    /*serve para que posso ajudtar os elemntos no responsivo*/
-
-    /*propriedades da fontes */
-    .nav-div-1{
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        margin-bottom: 30px;
-        margin-top: 40px;
-    }
-    .nav-div-2{
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        margin-top: 30px;
-        opacity: 80%;
-    }
-    nav > ul li{
-        font-size: 30px;
-    }
-    /*propriedades da fontes */
-
-
-    /*linha no meio das info*/
-    .line-nav {
-        width: 25px;
-        height: 3px;
-        background: white;
-        margin-left: 0;
-    }
-    /*linha no meio das info*/
-
-
-    /*propriedade de imagem*/
-    .nav-div-3 > img{
-       width: 80px;
-       display: inline-block;
-       position: fixed;
-       opacity: 100%;
-    }
-    .nav-div-3{
-        margin-bottom: 50px;
-    }
-    /*propriedade de imagem*/
+        /*ele faz com que o elemento fora da tela n tenha uma barra de rolagem çlateral*/
+        body {
+            overflow-x: hidden;
+          }
+          /*ele faz com que o elemento fora da tela n tenha uma barra de rolagem çlateral*/
+      
+      
+          /*serve para que posso ajudtar os elemntos no responsivo*/
+          .nav-list {
+            position: absolute;
+            top: 0vh;
+            right: 0;
+            width: 45vw; /*tamanho da barra */
+            height: 100vh;
+            background: var(--black);
+            padding-left: 30px;
+            flex-direction: column;
+            align-items: flex-start;
+            transform: translateX(100%); /*ele joga o elemento para fora da tela*/
+            transition: transform 0.3s ease-in; /*animação ficar mais suave*/
+          }
+          .nav-list-div{
+              display: flex;
+              align-items: flex-start;
+          }
+          .nav-list li {
+            margin-left: 0;
+            opacity: 0;
+          }
+          .mobile-menu {
+            display: block;
+          }
+          .nav-list-div{
+              display: flex;
+              flex-direction: column;
+          }
+          /*serve para que posso ajudtar os elemntos no responsivo*/
+      
+          /*propriedades da fontes */
+          .nav-div-1{
+              display: flex;
+              flex-direction: column;
+              gap: 15px;
+              margin-bottom: 30px;
+              margin-top: 40px;
+          }
+          .nav-div-2{
+              display: flex;
+              flex-direction: column;
+              gap: 15px;
+              margin-top: 30px;
+              opacity: 80%;
+          }
+          nav > ul li{
+              font-size: 30px;
+          }
+          /*propriedades da fontes */
+      
+      
+          /*linha no meio das info*/
+          .line-nav {
+              width: 25px;
+              height: 3px;
+              background: white;
+              margin-left: 0;
+          }
+          /*linha no meio das info*/
+      
+      
+          /*propriedade de imagem*/
+          .nav-div-3 > img{
+             width: 80px;
+             display: inline-block;
+             position: fixed;
+             opacity: 100%;
+          }
+          .nav-div-3{
+              margin-bottom: 50px;
+          }
 }
 @media only screen and (min-width: 1200px){
+    body {
+        overflow-x: hidden;
+      }
     #promotion{
         padding: 30px 20px 0px 3rem;
-        width: 100%;
+        width: 100vw;
         height: 23rem;
         display: flex;
         align-items: flex-start;
