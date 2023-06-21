@@ -3,7 +3,7 @@
 Este projeto foi iniciado há aproximadamente três meses a partir da data desta escrita (21/06/2023). Embora sua conclusão não tenha sido complexa em termos de dificuldade, levou mais tempo devido às minhas atividades em outros projetos, principalmente meu projeto de conclusão de curso. Durante esse período, o projeto ficou em espera. No entanto, com a conclusão do curso, pude retomar os projetos que estavam pendentes.
 
 O objetivo principal deste projeto era recriar um site já existente, abrangendo todas as etapas, a fim de aprender novos elementos e abordagens para criar uma interface responsiva. O site original possuía quatro versões de resolução: uma para dispositivos móveis até 768px, outra para resolução de 992px e, por fim, uma versão para desktop com largura de 1200px ou mais. Isso significava que eu precisava estruturar o HTML e o CSS de forma coesa em todo o projeto.
-#1
+
 
 A escolha do site do Spotify como base para o projeto foi motivada pela minha afinidade com a música e meu uso diário da plataforma Spotifly para consumir esse tipo de mídia. Além disso, o site em si não apresentava elementos complicados ou complexos, o que o tornou um ponto de partida ideal para o desenvolvimento deste projeto.
 
@@ -24,6 +24,7 @@ Para garantir uma organização eficiente do código e evitar sua extensão exce
 Embora o projeto possua apenas um arquivo index, representando a tela inicial, achei importante dividir
 
  as partes do projeto em seções distintas. Essa estrutura facilita a revisão do código no futuro e permite o reuso de elementos específicos que foram desenvolvidos, tornando mais fácil a localização de elementos-chave. Além disso, a clareza da estrutura de seções torna o processo de criação mais compreensível tanto para mim quanto para outros que possam analisar o projeto.
+> ![vscode1](https://user-images.githubusercontent.com/42822606/247602284-8cb55a3b-e79e-4d1a-82e5-55e1be859b94.jpg) ![vscode2](https://user-images.githubusercontent.com/42822606/247602288-8aa4eedb-1ef7-40b0-a9ab-43bc55b71381.jpg)
 
 ## Desafios do Projeto
 
