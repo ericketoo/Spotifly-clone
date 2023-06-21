@@ -21,8 +21,6 @@ A escolha do site do Spotify como base para o projeto foi motivada pela minha af
 </table>
 
 
-
-
 ## Tecnologias Utilizadas
 
 As tecnologias utilizadas neste projeto não foram complexas. Pelo contrário, foi uma experiência tranquila para mim, pois optei por desenvolver tudo nativamente, sem o uso de bibliotecas. Essa abordagem foi proposital, pois desejava aplicar os conhecimentos que adquiri ao longo de um ano de estudos.
@@ -30,6 +28,18 @@ As tecnologias utilizadas neste projeto não foram complexas. Pelo contrário, f
 No entanto, uma parte específica que apresentou um desafio um pouco maior foi a implementação do JavaScript para criar o menu hambúrguer. Foi necessário explorar recursos avançados dessa linguagem para garantir uma funcionalidade fluida e responsiva. Além disso, utilizei HTML e CSS para a construção geral do site.
 
 Essa escolha de utilizar apenas HTML, CSS e JavaScript refletiu minha intenção de aprimorar minhas habilidades e consolidar os conhecimentos adquiridos ao longo do tempo. Ao evitar o uso de bibliotecas, tive a oportunidade de explorar de forma mais aprofundada as capacidades dessas tecnologias fundamentais.
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://user-images.githubusercontent.com/42822606/247633175-a31d3ab5-149a-4e8d-a7f5-d47e988592c1.gif" alt="Spotifly Clone">
+      <p>Spotifly Clone</p>
+    </td>
+    <td align="center">
+      <img src="https://user-images.githubusercontent.com/42822606/247633805-09164e4c-cc20-42e5-910f-53170de536c3.gif" alt="Spotifly Original">
+      <p>Spotifly Original</p>
+    </td>
+  </tr>
+</table>
 
 ## Arquitetura e Estrutura do Projeto
 
