@@ -3,6 +3,7 @@
 Este projeto foi iniciado há aproximadamente três meses a partir da data desta escrita (21/06/2023). Embora sua conclusão não tenha sido complexa em termos de dificuldade, levou mais tempo devido às minhas atividades em outros projetos, principalmente meu projeto de conclusão de curso. Durante esse período, o projeto ficou em espera. No entanto, com a conclusão do curso, pude retomar os projetos que estavam pendentes.
 
 O objetivo principal deste projeto era recriar um site já existente, abrangendo todas as etapas, a fim de aprender novos elementos e abordagens para criar uma interface responsiva. O site original possuía quatro versões de resolução: uma para dispositivos móveis até 768px, outra para resolução de 992px e, por fim, uma versão para desktop com largura de 1200px ou mais. Isso significava que eu precisava estruturar o HTML e o CSS de forma coesa em todo o projeto.
+#1
 
 A escolha do site do Spotify como base para o projeto foi motivada pela minha afinidade com a música e meu uso diário da plataforma Spotifly para consumir esse tipo de mídia. Além disso, o site em si não apresentava elementos complicados ou complexos, o que o tornou um ponto de partida ideal para o desenvolvimento deste projeto.
 
